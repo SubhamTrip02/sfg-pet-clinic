@@ -8,7 +8,7 @@ public interface CrudService <T,ID>{        //making our own CrudRepository impl
 
     T findById(ID id);
 
-    T save(T owner);
+    T save(T object);
 
     Set<T> findAll();
 
